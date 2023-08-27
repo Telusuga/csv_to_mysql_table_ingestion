@@ -1,0 +1,21 @@
+Car;MPG;Cylinders;Displacement;Horsepower;Weight;Acceleration;Model;Origin
+STRING;DOUBLE;INT;DOUBLE;DOUBLE;DOUBLE;DOUBLE;INT;CAT
+Chevrolet Chevelle Malibu;18.0;8;307.0;130.0;3504.;12.0;70;US
+
+
+
+create table test_1
+(
+    car_name varchar(100),
+    mileage float(40),
+    cylinders integer(100),
+    displacement float(100),
+    horsepower float(60),
+    weight float(90),
+    acceleration float(100),
+    model integer(100),
+    origin varchar(100)
+)
+
+
+(%s, %f, %d, %f, %f, %f, %f, %d, %s)
